@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 1020" width="560" height="1020" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF2F9"/>
+      <stop offset="100%" stop-color="#E2E8F4"/>
+    </linearGradient>
+    <filter id="phoneShadow3" x="-10%" y="-5%" width="120%" height="112%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.18"/>
+    </filter>
+    <filter id="cardShadow3" x="-4%" y="-4%" width="108%" height="112%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.05"/>
+    </filter>
+    <clipPath id="screenClip3">
+      <rect x="65" y="40" width="430" height="920" rx="48"/>
+    </clipPath>
+  </defs>
+
+  <!-- Subtle Backdrop -->
+  <rect width="560" height="1020" fill="url(#bg3)"/>
+
+  <!-- iPhone Outer Titanium Bezel -->
+  <rect x="53" y="28" width="454" height="944" rx="58" fill="#1C1C1E" filter="url(#phoneShadow3)"/>
+  <rect x="56" y="31" width="448" height="938" rx="55" fill="#2C2C2E"/>
+  <rect x="61" y="36" width="438" height="928" rx="51" fill="#000000"/>
+
+  <!-- Side Hardware Buttons -->
+  <rect x="50" y="180" width="3" height="32" rx="1.5" fill="#3A3A3C"/>
+  <rect x="50" y="232" width="3" height="60" rx="1.5" fill="#3A3A3C"/>
+  <rect x="50" y="304" width="3" height="60" rx="1.5" fill="#3A3A3C"/>
+  <rect x="507" y="250" width="3" height="84" rx="1.5" fill="#3A3A3C"/>
+
+  <!-- iOS Screen Canvas -->
+  <g clip-path="url(#screenClip3)">
+    <rect x="65" y="40" width="430" height="920" fill="#F2F2F7"/>
+
+    <!-- iOS Status Bar -->
+    <text x="108" y="73" fill="#000000" font-size="15" font-weight="600">9:41</text>
+    <rect x="220" y="52" width="120" height="32" rx="16" fill="#000000"/>
+    <rect x="415" y="64" width="3" height="6" rx="1" fill="#000000"/>
+    <rect x="420" y="62" width="3" height="8" rx="1" fill="#000000"/>
+    <rect x="425" y="59" width="3" height="11" rx="1" fill="#000000"/>
+    <rect x="430" y="56" width="3" height="14" rx="1" fill="#000000"/>
+    <rect x="442" y="58" width="24" height="12" rx="3.5" fill="none" stroke="#000000" stroke-width="1.5"/>
+    <rect x="444" y="60" width="18" height="8" rx="2" fill="#000000"/>
+    <rect x="467" y="61" width="2" height="6" rx="1" fill="#000000"/>
+
+    <!-- App Header -->
+    <text x="89" y="118" fill="#002145" font-size="24" font-weight="800" letter-spacing="-0.5">LE SpaceFinder</text>
+    <rect x="348" y="99" width="123" height="26" rx="13" fill="#E8F8EE"/>
+    <circle cx="360" cy="112" r="4" fill="#34C759"/>
+    <text x="369" y="116" fill="#1E7E34" font-size="11" font-weight="700">In: MCLD 202</text>
+
+    <!-- iOS Segmented Control -->
+    <rect x="89" y="136" width="382" height="36" rx="10" fill="#E3E3E8"/>
+    <text x="183" y="159" fill="#636366" font-size="13" font-weight="500" text-anchor="middle">Solo Gap</text>
+    <rect x="280" y="139" width="188" height="30" rx="8" fill="#FFFFFF" filter="url(#cardShadow3)"/>
+    <text x="374" y="159" fill="#000000" font-size="13" font-weight="600" text-anchor="middle">Group Meet</text>
+
+    <!-- Group Input Card -->
+    <rect x="89" y="186" width="382" height="314" rx="16" fill="#FFFFFF" filter="url(#cardShadow3)"/>
+
+    <!-- Day & Duration Row -->
+    <rect x="107" y="202" width="114" height="32" rx="8" fill="#F2F2F7"/>
+    <text x="117" y="222" fill="#8E8E93" font-size="11" font-weight="500">M</text>
+    <text x="135" y="222" fill="#8E8E93" font-size="11" font-weight="500">Tu</text>
+    <rect x="153" y="205" width="26" height="26" rx="6" fill="#007AFF"/>
+    <text x="166" y="222" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">W</text>
+    <text x="186" y="222" fill="#8E8E93" font-size="11" font-weight="500">Th</text>
+    <text x="206" y="222" fill="#8E8E93" font-size="11" font-weight="500">F</text>
+
+    <rect x="231" y="202" width="110" height="32" rx="8" fill="#F2F2F7"/>
+    <text x="242" y="222" fill="#000000" font-size="12" font-weight="600">Min: 60m</text>
+    <text x="325" y="222" fill="#8E8E93" font-size="11">▾</text>
+
+    <rect x="351" y="202" width="102" height="32" rx="8" fill="#E5F1FF"/>
+    <text x="402" y="222" fill="#007AFF" font-size="12" font-weight="600" text-anchor="middle">+ Member (3/4)</text>
+
+    <!-- Column Subheaders -->
+    <text x="107" y="254" fill="#8E8E93" font-size="10" font-weight="700" letter-spacing="0.4">MEMBER &amp; BUILDING</text>
+    <text x="235" y="254" fill="#8E8E93" font-size="10" font-weight="700" letter-spacing="0.4">TAP BUSY HOURS (GREEN = ALL FREE)</text>
+
+    <!-- Member 1 Row -->
+    <rect x="107" y="264" width="116" height="36" rx="9" fill="#F2F2F7"/>
+    <text x="117" y="286" fill="#000000" font-size="12" font-weight="600">1. KAIS ▾</text>
+
+    <rect x="233" y="264" width="40" height="36" rx="7" fill="#3A3A3C"/>
+    <text x="253" y="286" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">10</text>
+    <rect x="277" y="264" width="40" height="36" rx="7" fill="#3A3A3C"/>
+    <text x="297" y="286" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">11</text>
+    <rect x="321" y="264" width="40" height="36" rx="7" fill="#E8F8EE" stroke="#34C759" stroke-width="1.5"/>
+    <text x="341" y="286" fill="#1E7E34" font-size="11" font-weight="700" text-anchor="middle">12</text>
+    <rect x="365" y="264" width="40" height="36" rx="7" fill="#E8F8EE" stroke="#34C759" stroke-width="1.5"/>
+    <text x="385" y="286" fill="#1E7E34" font-size="11" font-weight="700" text-anchor="middle">13</text>
+    <rect x="409" y="264" width="40" height="36" rx="7" fill="#3A3A3C"/>
+    <text x="429" y="286" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">14</text>
+
+    <!-- Member 2 Row -->
+    <rect x="107" y="310" width="116" height="36" rx="9" fill="#F2F2F7"/>
+    <text x="117" y="332" fill="#000000" font-size="12" font-weight="600">2. BUCH ▾</text>
+
+    <rect x="233" y="310" width="40" height="36" rx="7" fill="#3A3A3C"/>
+    <text x="253" y="332" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">10</text>
+    <rect x="277" y="310" width="40" height="36" rx="7" fill="#F2F2F7"/>
+    <text x="297" y="332" fill="#8E8E93" font-size="11" font-weight="500" text-anchor="middle">11</text>
+    <rect x="321" y="310" width="40" height="36" rx="7" fill="#E8F8EE" stroke="#34C759" stroke-width="1.5"/>
+    <text x="341" y="332" fill="#1E7E34" font-size="11" font-weight="700" text-anchor="middle">12</text>
+    <rect x="365" y="310" width="40" height="36" rx="7" fill="#E8F8EE" stroke="#34C759" stroke-width="1.5"/>
+    <text x="385" y="332" fill="#1E7E34" font-size="11" font-weight="700" text-anchor="middle">13</text>
+    <rect x="409" y="310" width="40" height="36" rx="7" fill="#3A3A3C"/>
+    <text x="429" y="332" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">14</text>
+
+    <!-- Member 3 Row -->
+    <rect x="107" y="356" width="116" height="36" rx="9" fill="#F2F2F7"/>
+    <text x="117" y="378" fill="#000000" font-size="12" font-weight="600">3. HENN ▾</text>
+
+    <rect x="233" y="356" width="40" height="36" rx="7" fill="#F2F2F7"/>
+    <text x="253" y="378" fill="#8E8E93" font-size="11" font-weight="500" text-anchor="middle">10</text>
+    <rect x="277" y="356" width="40" height="36" rx="7" fill="#3A3A3C"/>
+    <text x="297" y="378" fill="#FFFFFF" font-size="11" font-weight="600" text-anchor="middle">11</text>
+    <rect x="321" y="356" width="40" height="36" rx="7" fill="#E8F8EE" stroke="#34C759" stroke-width="1.5"/>
+    <text x="341" y="378" fill="#1E7E34" font-size="11" font-weight="700" text-anchor="middle">12</text>
+    <rect x="365" y="356" width="40" height="36" rx="7" fill="#E8F8EE" stroke="#34C759" stroke-width="1.5"/>
+    <text x="385" y="378" fill="#1E7E34" font-size="11" font-weight="700" text-anchor="middle">13</text>
+    <rect x="409" y="356" width="40" height="36" rx="7" fill="#F2F2F7"/>
+    <text x="429" y="378" fill="#8E8E93" font-size="11" font-weight="500" text-anchor="middle">14</text>
+
+    <!-- Common Window Summary Banner -->
+    <rect x="107" y="404" width="346" height="28" rx="8" fill="#E8F8EE"/>
+    <text x="280" y="422" fill="#1E7E34" font-size="12" font-weight="700" text-anchor="middle">✓ Common Free Window: 12:00 – 14:00 (2h 00m)</text>
+
+    <!-- Primary CTA Button -->
+    <rect x="107" y="442" width="346" height="44" rx="12" fill="#007AFF"/>
+    <text x="280" y="469" fill="#FFFFFF" font-size="15" font-weight="600" text-anchor="middle">Find Fair Midpoint Rooms</text>
+
+    <!-- Results Section Header -->
+    <text x="93" y="526" fill="#636366" font-size="12" font-weight="700" letter-spacing="0.5">BEST MIDPOINT ROOMS (MINIMAX WALK TIME)</text>
+
+    <!-- Group Result Card 1 -->
+    <rect x="89" y="538" width="382" height="142" rx="16" fill="#FFFFFF" stroke="#007AFF" stroke-width="1.8" filter="url(#cardShadow3)"/>
+    <text x="109" y="568" fill="#000000" font-size="18" font-weight="700">MATH 104</text>
+    <rect x="210" y="551" width="114" height="22" rx="11" fill="#E5F1FF"/>
+    <text x="267" y="566" fill="#007AFF" font-size="11" font-weight="700" text-anchor="middle">⚖️ Max Walk: 4m</text>
+    <text x="448" y="569" fill="#C7C7CC" font-size="20" font-weight="600">›</text>
+
+    <text x="109" y="591" fill="#3A3A3C" font-size="13" font-weight="500">Mathematics Bldg • Free 12:00 – 15:00</text>
+
+    <!-- Walk Fairness Breakdown Pill -->
+    <rect x="109" y="602" width="342" height="30" rx="8" fill="#F2F2F7"/>
+    <text x="280" y="621" fill="#002145" font-size="12" font-weight="600" text-anchor="middle">🚶 KAIS: 4 min   •   BUCH: 3 min   •   HENN: 3 min</text>
+
+    <line x1="109" y1="644" x2="451" y2="644" stroke="#F2F2F7" stroke-width="1"/>
+    <text x="109" y="664" fill="#636366" font-size="12" font-weight="500">👥 3 / 36 Checked In (Quiet)   •   ⚡ Outlets   •   ♿ Step-Free</text>
+
+    <!-- Group Result Card 2 -->
+    <rect x="89" y="694" width="382" height="142" rx="16" fill="#FFFFFF" filter="url(#cardShadow3)"/>
+    <text x="109" y="724" fill="#000000" font-size="18" font-weight="700">LSK 201</text>
+    <rect x="194" y="707" width="114" height="22" rx="11" fill="#F2F2F7"/>
+    <text x="251" y="722" fill="#3A3A3C" font-size="11" font-weight="700" text-anchor="middle">⚖️ Max Walk: 5m</text>
+    <text x="448" y="725" fill="#C7C7CC" font-size="20" font-weight="600">›</text>
+
+    <text x="109" y="747" fill="#3A3A3C" font-size="13" font-weight="500">Leonard S. Klinck • Free 11:30 – 14:30</text>
+
+    <rect x="109" y="758" width="342" height="30" rx="8" fill="#F2F2F7"/>
+    <text x="280" y="777" fill="#3A3A3C" font-size="12" font-weight="600" text-anchor="middle">🚶 KAIS: 3 min   •   BUCH: 5 min   •   HENN: 2 min</text>
+
+    <line x1="109" y1="800" x2="451" y2="800" stroke="#F2F2F7" stroke-width="1"/>
+    <text x="109" y="820" fill="#636366" font-size="12" font-weight="500">👥 6 / 45 Checked In (Quiet)   •   ⚡ Outlets   •   🖍️ Board</text>
+
+    <!-- Subtle hint banner -->
+    <text x="280" y="895" fill="#8E8E93" font-size="12" font-weight="500" text-anchor="middle">Ranked by Minimax Spatial Fairness (min max walk)</text>
+
+    <!-- iOS Home Indicator -->
+    <rect x="210" y="944" width="140" height="5" rx="2.5" fill="#000000"/>
+  </g>
+
+  <!-- Caption Footer -->
+  <text x="280" y="998" fill="#475569" font-size="13" font-weight="600" text-anchor="middle">Screen 3 — Group "Meet-in-the-Middle" Schedule &amp; Spatial Router (iOS View)</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif">
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#002145"/>
+      <stop offset="100%" stop-color="#0055B7"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="34" fill="url(#logoGrad)"/>
+  <!-- Location Pin + Open Doorway Icon -->
+  <path d="M80 34 C59 34 44 49 44 69 C44 95 80 126 80 126 C80 126 116 95 116 69 C116 49 101 34 80 34 Z" fill="#FFFFFF" opacity="0.95"/>
+  <rect x="66" y="54" width="28" height="32" rx="4" fill="#002145"/>
+  <path d="M68 56 L84 52 L84 88 L68 84 Z" fill="#007AFF"/>
+  <circle cx="80" cy="70" r="2.2" fill="#FFFFFF"/>
+  <circle cx="114" cy="44" r="10" fill="#34C759" stroke="#002145" stroke-width="3"/>
+</svg>
