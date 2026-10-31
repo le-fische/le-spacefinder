@@ -1,10 +1,10 @@
-# LE — Learning Environments (Group 18)
+# LE — Learning Environments
 
 <p align="center">
   <img src="./mockups/logo.png" alt="LE SpaceFinder Logo" width="96" />
 </p>
 
-**CPEN 221A (Fall 2026) — Team Project (Group 18)**
+**CPEN 221A (Fall 2026) — Team Project**
 
 ## Team Roles & Responsibilities
 * **Project Manager (PM):** Houze (Le) Guo

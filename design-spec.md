@@ -1,8 +1,8 @@
-# CPEN 221A — Milestone 1: Design Specification (Group 18)
+# CPEN 221A — Milestone 1: Design Specification
 
 ## 1. Design Your Team
 
-* **Team Name:** LE — Learning Environments (Group 18)
+* **Team Name:** LE — Learning Environments
 * **Project Manager (PM):** Houze (Le) Guo
 * **Designer:** Houze (Le) Guo
 * **Developer:** Houze (Le) Guo
